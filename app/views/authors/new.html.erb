@@ -30,7 +30,7 @@
     <div class="field" >   
     <% end %> 
     <%= label_tag "email", "Email" %>
-    <%= text_field_tag "email", "@author.email" %>
+    <%= text_field_tag "email", @author.email %>
   </div>
 
 
@@ -40,7 +40,7 @@
     <div class="field" >
     <% end %>
   <%= label_tag "phone_number", "Phone Number" %>
-  <%= text_field_tag "phone_number", "@author.phone_number" %>
+  <%= text_field_tag "phone_number", @author.phone_number %>
 </div>
 
 
